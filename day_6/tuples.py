@@ -1,6 +1,4 @@
 from operator import ne
-
-
 empty_tuple = ()
 empty_tuple = tuple()
 fruits = ("Avocado","Strawberry","Banana","Plams","berries")
@@ -64,3 +62,11 @@ print('milk' in vegetables)
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print('Denmark' in nordic_countries)
 print('Iceland' in nordic_countries)
+
+#List is a collection which is ordered and changeable. Allows duplicate members.
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+#Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+#Dictionary is a collection which is ordered** and changeable. No duplicate members.
+sentense = "I am a teachere and i enejoy to inspire and teach people"
+print(sentense.split())
+
