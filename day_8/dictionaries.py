@@ -1,20 +1,20 @@
 empty_dict = {}
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Pascaline',
+    'last_name':'Umulisa',
     'age':250,
     'country':'Finland',
     'is_marred':True,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
-        'zipcode':'02210'
+        'zipcode':'00100'
     }
     }
 print(person)
 print(len(person))
 print(person['first_name'])
-person['tribe'] = 'kikuyu'
+person['tribe'] = 'Meru'
 print(person)
 person['country'] = 'Kenya'
 print(person)
@@ -53,7 +53,7 @@ student_dict = {
     'first_name':'Lucy',
     'last_name':'Karimi',
     'gender':'female',
-    'age':22,
+    'age':21,
     'skills':'Python',
     'country':'Kenya',
     'city':'Nairobi'
@@ -66,7 +66,7 @@ students= list(student_dict)
 print(type(students))
 student_dict['first_name'] = 'Annita'
 print(student_dict)
-student_dict['tribe'] = 'Kikuyu'
+student_dict['tribe'] = 'Kenyan'
 print(student_dict)
 student_dict['county'] = 'Laikipia'
 print(student_dict)
